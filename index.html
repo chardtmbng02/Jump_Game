@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jump Game</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/script.js"></script>
+  </head>
+
+  <body onload="__pauseAnimations();">
+    <div class="container">
+      <canvas height="552" width="422" id="canvas">
+        Aww, your browser doesn't support HTML5!
+      </canvas>
+
+      <div id="gameOverMenu">
+        <h1>Game Over!</h1>
+        <h3 id="go_score">You scored 276 points!</h3>
+        <a class="button" href="javascript:reset()">Retry</a>
+      </div>
+
+      <img id="sprite" src="./images/Skin-1.png" />
+
+      <div id="scoreBoard">
+        <p id="score"></p>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        &copy Jump Game 2013 - Developed by:
+        <a href="https://github.com/chardtmbng02">Richard T.</a>
+      </p>
+    </footer>
+
+    <script src="./js/game_config.js"></script>
+
+  </body>
+</html>
